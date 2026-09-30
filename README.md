@@ -36,6 +36,7 @@ This is a Discord bot. On Render, create a **Web Service** (not a static site) s
    - **Build command:** `npm ci && npm run build`
    - **Start command:** `npm start`
    - **Health check path:** `/health`
+   - **Node version:** `22` (set `NODE_VERSION=22` in the Render environment)
 4. Add environment variables from `.env.example` (`DISCORD_TOKEN`, `DISCORD_CLIENT_ID`, `DISCORD_PUBLIC_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`, `DATABASE_URL`).
 5. Apply the schema once (`npm run setup-db` locally, or a one-off Render shell) before the first live traffic.
 
